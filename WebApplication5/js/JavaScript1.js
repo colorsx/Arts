@@ -34,3 +34,24 @@
         return Class;
     };
 })();
+
+AI = Class.extend({
+    treeDepth:null,
+    number: 0,
+    historyTable: null,
+    initTime:null,
+    val: null,
+    userNull:-999999,
+    create: function () {
+        
+    },
+    init: function (pace) {
+        this.initTime = new Date().getTime();
+        this.treeDepth = 4;
+        this.historyTable = new Array();
+        this.val = this.getAlphaBeta();
+    },
+    getAlphaBeta: function (-9999,) {
+    },
+
+});
